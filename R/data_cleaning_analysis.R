@@ -6,10 +6,13 @@
 # -------------------------------
 # 1. Install required packages and Load libraries
 # -------------------------------
+
+#nstall required packages
 install.packages("WDI")
 install.packages("dplyr")
 install.packages("ggplot2")
 
+#Load libraries
 library(WDI)      # To access World Bank Development Indicators API
 library(dplyr)    # For data manipulation and cleaning
 library(ggplot2)  # For data visualization
